@@ -1,20 +1,15 @@
 {
   "name": "api-multiuser-spotify",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/abay-tech-dev/API-multiuser-saas.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/abay-tech-dev/API-multiuser-saas/issues"
-  },
-  "homepage": "https://github.com/abay-tech-dev/API-multiuser-saas#readme"
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "axios": "^1.6.0"
+  }
 }
